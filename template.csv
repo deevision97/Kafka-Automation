@@ -1,0 +1,27 @@
+---,&name,partitions,option,log-retention-size,producer,! consumer, !!group
+,silverlake-test,4,,5gb,slke0lakepro,slke0lakecg1,lke0-d-silverlake-test-cg1
+,silverlake-test2,5,,10gb,slke0laketwopro,slke0laketwocg1,lke0-d-silverlake-test2-cg1
+,silverlake-test3,6,,10gb,slke0laketwopro,slke0laketwocg2,lke0-d-silverlake-test2-cg2
+,silverlake-test4,7,,10gb,slke0laketwopro,slke0laketwocg3,lke0-d-silverlake-test2-cg3
+,silverlake-test5,8,,10gb,slke0laketwopro,slke0laketwocg4,lke0-d-silverlake-test2-cg4
+,silverlake-test6,9,,10gb,slke0laketwopro,slke0laketwocg5,lke0-d-silverlake-test2-cg5
+,silverlake-test7,10,,10gb,slke0laketwopro,slke0laketwocg6,lke0-d-silverlake-test2-cg6
+,silverlake-test8,11,,10gb,slke0laketwopro,slke0laketwocg7,lke0-d-silverlake-test2-cg7
+,silverlake-test9,12,,10gb,slke0laketwopro,slke0laketwocg8,lke0-d-silverlake-test2-cg8
+,silverlake-test10,13,,10gb,slke0laketwopro,slke0laketwocg9,lke0-d-silverlake-test2-cg9
+,silverlake-test11,14,,10gb,slke0laketwopro,slke0laketwocg10,lke0-d-silverlake-test2-cg10
+,silverlake-test12,15,,10gb,slke0laketwopro,slke0laketwocg11,lke0-d-silverlake-test2-cg11
+,silverlake-test13,16,,10gb,slke0laketwopro,slke0laketwocg12,lke0-d-silverlake-test2-cg12
+,silverlake-test14,17,,10gb,slke0laketwopro,slke0laketwocg13,lke0-d-silverlake-test2-cg13
+,silverlake-test15,18,,10gb,slke0laketwopro,slke0laketwocg14,lke0-d-silverlake-test2-cg14
+,silverlake-test16,19,,10gb,slke0laketwopro,slke0laketwocg15,lke0-d-silverlake-test2-cg15
+,silverlake-test17,20,,10gb,slke0laketwopro,slke0laketwocg16,lke0-d-silverlake-test2-cg16
+,silverlake-test18,21,,10gb,slke0laketwopro,slke0laketwocg17,lke0-d-silverlake-test2-cg17
+,silverlake-test19,22,,10gb,slke0laketwopro,slke0laketwocg18,lke0-d-silverlake-test2-cg18
+,silverlake-test20,23,,10gb,slke0laketwopro,slke0laketwocg19,lke0-d-silverlake-test2-cg19
+,silverlake-test21,24,,10gb,slke0laketwopro,slke0laketwocg20,lke0-d-silverlake-test2-cg20
+,silverlake-test22,25,,10gb,slke0laketwopro,slke0laketwocg21,lke0-d-silverlake-test2-cg21
+,silverlake-test23,26,,10gb,slke0laketwopro,slke0laketwocg22,lke0-d-silverlake-test2-cg22
+,silverlake-test24,27,,10gb,slke0laketwopro,slke0laketwocg23,lke0-d-silverlake-test2-cg23
+,silverlake-test25,28,,10gb,slke0laketwopro,slke0laketwocg24,lke0-d-silverlake-test2-cg24
+,silverlake-test26,29,,10gb,slke0laketwopro,slke0laketwocg25,lke0-d-silverlake-test2-cg25

@@ -1,0 +1,36 @@
+td{
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  /*padding: 100px;*/
+  border: 5px solid white;
+  font-size: 100px;
+}
+body{
+  background-image: url();
+
+}
+.jumbotron{
+  background-image: url(https://www.seekpng.com/png/detail/70-704617_white-on-transparent-kafka-logo-svg.png);
+}
+
+.last{text-align: center;
+font-size: 70px}
+
+.pehla{
+  text-align: center;
+}
+table{
+  color: #abfffc;
+}
+
+.sharma{
+  color: #012120;
+}
+.rules{
+  text-align: center;
+}
+.end{
+  text-align: right;
+  color: #9bb9eb;
+}

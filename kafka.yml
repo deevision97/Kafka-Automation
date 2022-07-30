@@ -1,0 +1,208 @@
+: 
+-name: silverlake-test
+partitions: 4
+option: 
+logretentionsize: 5gb
+producer: slke0lakepro
+  consumer: slke0lakecg1
+   group: lke0-d-silverlake-test-cg1
+: 
+-name: silverlake-test2
+partitions: 5
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg1
+   group: lke0-d-silverlake-test2-cg1
+: 
+-name: silverlake-test3
+partitions: 6
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg2
+   group: lke0-d-silverlake-test2-cg2
+: 
+-name: silverlake-test4
+partitions: 7
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg3
+   group: lke0-d-silverlake-test2-cg3
+: 
+-name: silverlake-test5
+partitions: 8
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg4
+   group: lke0-d-silverlake-test2-cg4
+: 
+-name: silverlake-test6
+partitions: 9
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg5
+   group: lke0-d-silverlake-test2-cg5
+: 
+-name: silverlake-test7
+partitions: 10
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg6
+   group: lke0-d-silverlake-test2-cg6
+: 
+-name: silverlake-test8
+partitions: 11
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg7
+   group: lke0-d-silverlake-test2-cg7
+: 
+-name: silverlake-test9
+partitions: 12
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg8
+   group: lke0-d-silverlake-test2-cg8
+: 
+-name: silverlake-test10
+partitions: 13
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg9
+   group: lke0-d-silverlake-test2-cg9
+: 
+-name: silverlake-test11
+partitions: 14
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg10
+   group: lke0-d-silverlake-test2-cg10
+: 
+-name: silverlake-test12
+partitions: 15
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg11
+   group: lke0-d-silverlake-test2-cg11
+: 
+-name: silverlake-test13
+partitions: 16
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg12
+   group: lke0-d-silverlake-test2-cg12
+: 
+-name: silverlake-test14
+partitions: 17
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg13
+   group: lke0-d-silverlake-test2-cg13
+: 
+-name: silverlake-test15
+partitions: 18
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg14
+   group: lke0-d-silverlake-test2-cg14
+: 
+-name: silverlake-test16
+partitions: 19
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg15
+   group: lke0-d-silverlake-test2-cg15
+: 
+-name: silverlake-test17
+partitions: 20
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg16
+   group: lke0-d-silverlake-test2-cg16
+: 
+-name: silverlake-test18
+partitions: 21
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg17
+   group: lke0-d-silverlake-test2-cg17
+: 
+-name: silverlake-test19
+partitions: 22
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg18
+   group: lke0-d-silverlake-test2-cg18
+: 
+-name: silverlake-test20
+partitions: 23
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg19
+   group: lke0-d-silverlake-test2-cg19
+: 
+-name: silverlake-test21
+partitions: 24
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg20
+   group: lke0-d-silverlake-test2-cg20
+: 
+-name: silverlake-test22
+partitions: 25
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg21
+   group: lke0-d-silverlake-test2-cg21
+: 
+-name: silverlake-test23
+partitions: 26
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg22
+   group: lke0-d-silverlake-test2-cg22
+: 
+-name: silverlake-test24
+partitions: 27
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg23
+   group: lke0-d-silverlake-test2-cg23
+: 
+-name: silverlake-test25
+partitions: 28
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg24
+   group: lke0-d-silverlake-test2-cg24
+: 
+-name: silverlake-test26
+partitions: 29
+option: 
+logretentionsize: 10gb
+producer: slke0laketwopro
+  consumer: slke0laketwocg25
+   group: lke0-d-silverlake-test2-cg25
