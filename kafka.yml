@@ -32,7 +32,7 @@ producer: slke0laketwopro
    group: lke0-d-silverlake-test2-cg3
 : 
 -name: silverlake-test5
-partitions: 8
+partitions: 80
 option: 
 logretentionsize: 10gb
 producer: slke0laketwopro
