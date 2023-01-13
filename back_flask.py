@@ -28,7 +28,36 @@ def downloader():
 def fetch():
     return send_file("kafka.yml",as_attachment=True)
 
+@app.route('/auth')
+def auth():
 
+    authorization_url = workos.client.sso.get_authorization_url(
+        domain = CUSTOMER_EMAIL_DOMAIN,
+        redirect_uri = url_for('auth_callback', _external=True),
+        state = {},
+        connection = CUSTOMER_CONNECTION_ID 
+    )
+
+    return redirect(authorization_url)
+    
+
+@app.route('/auth/callback')
+def auth_callback():
+    code = request.args.get('code')
+    print(code)
+    profile = workos.client.sso.get_profile_and_token(code)
+    p_profile = profile.to_dict()
+    first_name = p_profile['profile']['first_name']
+
+    if "picture" in p_profile['profile']['raw_attributes']:
+        image = p_profile['profile']['raw_attributes']['picture']
+    else: 
+        image = "../static/images/rbc_logo.png"
+
+    raw_profile = p_profile['profile']
+
+
+    return render_template('login_successful.html', first_name=first_name, image=image, raw_profile=raw_profile)
 
 @app.route("/create_yaml/")
 def move_forward():
